@@ -9,8 +9,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
+    strategy
+      matrix
         node_version: [12.x]
 
     steps:
